@@ -7,6 +7,10 @@ Repo collection for my selected work involving the wonderful raspberry pi
 PiZero
 > Soon
 
+Retropie
+
+> [Pre-built Gaming Project](https://github.com/knightman/pi-projects/blob/master/retropie/retropie.md)
+
 SenseHat
 > [Advent Calendar](https://github.com/knightman/pi-projects/blob/master/sensehat/advent-cal/advent-cal.md)
 
