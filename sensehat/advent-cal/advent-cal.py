@@ -1,9 +1,11 @@
 # This file is modified from the published starter code example
 # advent-cal.py
+import datetime
 from sense_hat import SenseHat
 from time import sleep, strftime
 
 sense = SenseHat()
+sense.clear()
 
 # ------------------------------------------------
 # DATA
@@ -48,9 +50,15 @@ def display_pic(pic_string):
   # Display the pixel colours from the file
   sense.set_pixels(pic_list)
 
-
 # ------------------------------------------------
 # MAIN PROGRAM
 # ------------------------------------------------
-sense.clear()
-display_pic(all_pics[1])
+while(True):
+  event = sense.stick.wait_for_event()
+  if event.action == 'pressed':
+    sense.clear()
+    current_day = int(datetime.date.today().strftime("%d"))
+    display_pic(all_pics[current_day])
+    sleep(5)
+    sense.show_message(str(25-current_day) + ' days until Christmas!')
+  sleep(1)
