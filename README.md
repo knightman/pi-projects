@@ -1,14 +1,18 @@
 # pi-projects
 
-Repo collection for my selected work involving the wonderful raspberry pi
+Repo collection for my selected work involving the wonderful raspberry pi.
 
 ### Contents
+
+Camera
+> [Motion Camera](https://github.com/knightman/pi-projects/blob/master/camera/motion-cam/motion-cam.md)
+
+> [Timelapse Camera](https://github.com/knightman/pi-projects/blob/master/camera/timelapse-cam/timelapse-cam.md)
 
 PiZero
 > Soon
 
 Retropie
-
 > [Pre-built Gaming Project](https://github.com/knightman/pi-projects/blob/master/retropie/retropie.md)
 
 SenseHat
