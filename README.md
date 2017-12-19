@@ -9,8 +9,8 @@ Camera
 
 > [Timelapse Camera](https://github.com/knightman/pi-projects/blob/master/camera/timelapse-cam/timelapse-cam.md)
 
-PiZero
-> Soon
+Pi Cluster
+> [Soon!](https://github.com/knightman/pi-projects/blob/master/pi-cluster/pi-cluster.md)
 
 Retropie
 > [Pre-built Gaming Project](https://github.com/knightman/pi-projects/blob/master/retropie/retropie.md)
